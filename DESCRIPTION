@@ -6,9 +6,19 @@ Author: Randall Pruim
 Maintainer: Randall Pruim <rpruim@gmail.com>
 Description: This is just a demo package to show how packages
     are created.
+Depends:
+  bayesplot
+Imports:
+  brms
+Suggests:
+  testthat,
+    knitr,
+    rmarkdown
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
+Roxygen: list(markdown = TRUE)
 URL: https://github.com/rpruim/WestMIR
 BugReports: https://github.com/rpruim/WestMIR/issues
+VignetteBuilder: knitr

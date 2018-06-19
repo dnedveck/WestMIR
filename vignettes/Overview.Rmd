@@ -1,0 +1,29 @@
+---
+title: "How to Use This Package"
+author: "R J Pruim"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to Use This Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## An Example
+
+```{r}
+library(bayesplot)
+library(brms)
+library(WestMIR)
+
+# mod <- brm(width ~ length * sex, data = mosaicData::KidsFeet)
+# mcmc_rhat(mod)
+```
+
